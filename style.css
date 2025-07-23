@@ -1,0 +1,35 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #F5F8FF;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 1.6;
+}
+
+/* font setup */
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+}
+
+/* Default style */
+a {
+    text-decoration: none;
+}
+ul, ol {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
