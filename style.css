@@ -33,3 +33,44 @@ img {
     max-width: 100%;
     display: block;
 }
+.dark {
+    color: #000;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 150px;
+}
+.navbar_brand {
+    height: 74px;
+}
+.navbar ul {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+.navbar ul li a {
+    color: #8987A1;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.navbar_ul_cart a {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+}
+.navbar ul li.navbar_ul_cart a{
+    color: #000;
+}
+.navbar_ul_cart a i {
+  color: #000;
+  font-size: 24px;
+}
+.navbar ul li:first-child a{
+    color: #000;
+    font-weight: 700;
+}
