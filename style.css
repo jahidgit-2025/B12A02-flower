@@ -185,6 +185,58 @@ section {
     width: 100%;
 }
 
+/* lover_img */
+.lover {
+    display: flex;
+    gap: 60px;
+}
+.lover_img {
+    width: 100%;
+}
+.lover_img img {
+    width: 100%;
+    height: auto;
+}
+.lover_content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* deals section */
+.deals_content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.deal_card {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+}
+
+.deal_card h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.deal_card a {
+    color: white;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+
+
 
 /* Responsive Design */
 @media screen and (max-width: 567px) {
@@ -224,4 +276,19 @@ section {
     .our_plant_title p{
     max-width: 100%;
     }   
+
+    /* lover section */
+    .lover {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    /* deals section */
+    .deals {
+        margin-top: 144px;
+    }
+    .deals_content {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
 }
